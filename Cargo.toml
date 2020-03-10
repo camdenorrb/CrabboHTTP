@@ -1,0 +1,16 @@
+[package]
+name = "CrabHTTP"
+version = "0.1.0"
+authors = ["camdenorrb <5360339+camdenorrb@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-tls = "0.6.0" # https://github.com/async-rs/async-tls
+async-std = "1.5.0"
+http-types = "1.0.1"
+itertools = "0.9.0"
+
+# TODO: Make a thing like this
+# https://github.com/servo/html5ever
